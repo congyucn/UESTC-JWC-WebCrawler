@@ -4,8 +4,7 @@
 
 We use Python Scrapy to crawl News in website <http://www.jwc.uestc.edu.cn>
 
-Project JwcInfoCrawler crawls *title*, *url* and *date* of News and Project
-JwcContCrawler crawls *content* of News.
+Project JwcInfoCrawler crawls **title**, **url** and **date** of News and Project JwcContCrawler crawls **content** of News.
 
 ## Requirements
 
