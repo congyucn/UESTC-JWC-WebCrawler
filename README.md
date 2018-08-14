@@ -15,11 +15,11 @@ Project JwcInfoCrawler crawls **title**, **url** and **date** of News and Projec
 
 In folder JwcInfoCrawler:
 ```
-scrapy crawl uestcjwc -o JwcInfo.json
+$ scrapy crawl uestcjwc -o JwcInfo.json
 ```
 In folder JwcContCrawler:
 ```
-scrapy crawl uestcjwc -o JwcCont.json
+$ scrapy crawl uestcjwc -o JwcCont.json
 ```
 The results will be stored in *JwcInfo.json* and *JwcCont.json*.
 
