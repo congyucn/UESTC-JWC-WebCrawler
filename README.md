@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We use Python Scrapy to crawl News in website <http://www.jwc.uestc.edu.cn>
+We use Python Scrapy to crawl News in website <http://www.jwc.uestc.edu.cn>.
 
 Project JwcInfoCrawler crawls **title**, **url** and **date** of the latest News, and email a notification to you.
 
