@@ -14,13 +14,13 @@ class JwcInfoSpider(scrapy.Spider):
 
     def parse(self, response):
         def mail(url, title):
-            server = zmail.server('yourmail@example.com', 'yourpassword')
+            server = zmail.server('congyu01@sina.com', 'password')
 
             mail = {
-                'subject': 'NEW JWC NOTIFICATION:%s' % (title),
+                'subject': '教务处有新公告:%s' % (title),
                 'content_html': url,
             }
-            server.send_mail('yourfriend@example.com', mail)
+            server.send_mail('congyu_123@163.com', mail)
 
         sel = scrapy.selector.Selector(response)
         item = JwcinfocrawlerItem()

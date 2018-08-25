@@ -20,7 +20,14 @@ In folder JwcInfoCrawler:
 ```
 $ scrapy crawl uestcjwc -o JwcInfo.json
 ```
+or
+
+```
+$ python start.py    # start crawler repeatedly
+```
+
 In folder JwcContCrawler:
+
 ```
 $ scrapy crawl uestcjwc -o JwcCont.json
 ```
