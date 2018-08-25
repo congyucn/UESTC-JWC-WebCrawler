@@ -16,17 +16,17 @@ Project JwcContCrawler crawls **content** of News.
 
 ## Usage
 
-In folder JwcInfoCrawler:
+**In folder JwcInfoCrawler:**
 ```
 $ scrapy crawl uestcjwc -o JwcInfo.json
 ```
-or
+&emsp;or
 
 ```
 $ python start.py    # start crawler repeatedly
 ```
 
-In folder JwcContCrawler:
+**In folder JwcContCrawler:**
 
 ```
 $ scrapy crawl uestcjwc -o JwcCont.json
